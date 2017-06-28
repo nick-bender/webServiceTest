@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C83C8BF1F044D42005E9157 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C83C8BE1F044D42005E9157 /* AppDelegate.m */; };
+		5C83C8C21F044D42005E9157 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C83C8C11F044D42005E9157 /* main.m */; };
+		5C83C8C41F044D42005E9157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C83C8C31F044D42005E9157 /* Assets.xcassets */; };
+		5C83C8C71F044D42005E9157 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C83C8C51F044D42005E9157 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C83C8BA1F044D42005E9157 /* Web Service Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Service Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C83C8BD1F044D42005E9157 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C83C8BE1F044D42005E9157 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C83C8C11F044D42005E9157 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C83C8C31F044D42005E9157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C83C8C61F044D42005E9157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5C83C8C81F044D42005E9157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C83C8B71F044D42005E9157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C83C8B11F044D42005E9157 = {
+			isa = PBXGroup;
+			children = (
+				5C83C8BC1F044D42005E9157 /* Web Service Test */,
+				5C83C8BB1F044D42005E9157 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C83C8BB1F044D42005E9157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C83C8BA1F044D42005E9157 /* Web Service Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C83C8BC1F044D42005E9157 /* Web Service Test */ = {
+			isa = PBXGroup;
+			children = (
+				5C83C8BD1F044D42005E9157 /* AppDelegate.h */,
+				5C83C8BE1F044D42005E9157 /* AppDelegate.m */,
+				5C83C8C31F044D42005E9157 /* Assets.xcassets */,
+				5C83C8C51F044D42005E9157 /* MainMenu.xib */,
+				5C83C8C81F044D42005E9157 /* Info.plist */,
+				5C83C8C01F044D42005E9157 /* Supporting Files */,
+			);
+			path = "Web Service Test";
+			sourceTree = "<group>";
+		};
+		5C83C8C01F044D42005E9157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C83C8C11F044D42005E9157 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C83C8B91F044D42005E9157 /* Web Service Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C83C8CB1F044D42005E9157 /* Build configuration list for PBXNativeTarget "Web Service Test" */;
+			buildPhases = (
+				5C83C8B61F044D42005E9157 /* Sources */,
+				5C83C8B71F044D42005E9157 /* Frameworks */,
+				5C83C8B81F044D42005E9157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Web Service Test";
+			productName = "Web Service Test";
+			productReference = 5C83C8BA1F044D42005E9157 /* Web Service Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C83C8B21F044D42005E9157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Clipper;
+				TargetAttributes = {
+					5C83C8B91F044D42005E9157 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5C83C8B51F044D42005E9157 /* Build configuration list for PBXProject "Web Service Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C83C8B11F044D42005E9157;
+			productRefGroup = 5C83C8BB1F044D42005E9157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C83C8B91F044D42005E9157 /* Web Service Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C83C8B81F044D42005E9157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C83C8C41F044D42005E9157 /* Assets.xcassets in Resources */,
+				5C83C8C71F044D42005E9157 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C83C8B61F044D42005E9157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C83C8C21F044D42005E9157 /* main.m in Sources */,
+				5C83C8BF1F044D42005E9157 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C83C8C51F044D42005E9157 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C83C8C61F044D42005E9157 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C83C8C91F044D42005E9157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C83C8CA1F044D42005E9157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C83C8CC1F044D42005E9157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Web Service Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Clipper.Web-Service-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C83C8CD1F044D42005E9157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Web Service Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Clipper.Web-Service-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C83C8B51F044D42005E9157 /* Build configuration list for PBXProject "Web Service Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C83C8C91F044D42005E9157 /* Debug */,
+				5C83C8CA1F044D42005E9157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C83C8CB1F044D42005E9157 /* Build configuration list for PBXNativeTarget "Web Service Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C83C8CC1F044D42005E9157 /* Debug */,
+				5C83C8CD1F044D42005E9157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C83C8B21F044D42005E9157 /* Project object */;
+}
